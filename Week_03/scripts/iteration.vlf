@@ -1,0 +1,5 @@
+// RotZ
+detail("../foreach_count1", "iteration", 0) * (360 / ch("../foreach_end1/iterations"))
+
+// ScaleY
+fit01( rand(detail("../foreach_count1", "iteration", 0)) * ch("seed"), 0.7, 1.5)
